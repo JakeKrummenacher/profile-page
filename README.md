@@ -1,0 +1,1 @@
+Practice in HTML and CSS to create the UI of a basic social media platform similar to LinkedIn

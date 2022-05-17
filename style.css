@@ -1,0 +1,284 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    font-family: Roboto;
+}
+
+.nav{
+    font-family:Roboto-light;
+    background-color: rgb(49, 49, 49);
+    display:flex;
+    color: white;
+    height:75px;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:615px;
+    padding-right: 615px;
+}
+
+.nav h1{
+    font-family: Roboto;
+    margin-right: 30px;
+}
+
+#title-links{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin-right:20px;
+}
+
+.nav a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: skyblue;
+    font-family: Roboto-light;
+    font-size:large;
+    color: white;
+    box-shadow: 2px 2px black;
+    border: solid black;
+    padding: 5px 5px;
+}
+
+.container{
+    margin: 20px auto;
+    margin-left: 200px; margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10px;
+}
+
+.main-content{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-card{
+    width: 400px;
+    height: 285px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.person-intro{
+    font-family:Roboto-light;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.body-box{
+    margin: 15px;
+}
+
+.body-box p{
+    font-size: medium;
+}
+
+h5{
+    color: rgb(126, 126, 126);
+    margin-top: 8px; margin-bottom: 8px;
+}
+
+.user-selection{
+    width:35px;
+    margin-right: 5px;
+}
+
+.education{
+    margin-top: 30px;
+    border: 2px gray solid;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile-pic{
+    width: 65px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.side-panel .person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#request-box{
+    border: 2px gray solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+
+#connections-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px gray solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom:20px;
+}
+
+#extra-box{
+    border-top: solid gray 2px;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#connections-box .person{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.title-box{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.notifications{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    margin-right: 10px;
+}
+
+#box{
+    height: 50px;
+    width: 700px;
+    border-bottom: 2px solid darkgray;
+    background-color: rgb(23, 162, 184);
+    margin-bottom:40px;
+    padding-top:20px;
+    padding-left:30px;
+}
+
+#image-of-self{
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#location{
+    font-family:Roboto-light;
+    width: 300px;
+    height:fit-content;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:30px;
+    margin-top:-18px;
+}
+
+#marker-icon{
+    width:10px;
+}
+
+.personal-card h1{
+    font-family: Roboto;
+    margin:15px;
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+.personal-card h2{
+    font-size: large;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+table{
+    border-collapse:collapse;
+    margin-left:25px;
+}
+
+td:first-child{
+    border-left: none;
+}
+
+td:last-child{
+    border-right:none;
+}
+
+td{
+    font-size: small;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left:5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-top:none;
+    border-bottom:none;
+}
+
+h3{
+    font-size: small;
+    margin-top:5px;
+    margin-left: 30px;
+    font-weight:bold;
+}
+
+.personal-card a{
+    text-decoration: underline;
+    color: rgb(23, 162, 184);
+    font-weight: bold;
+}
+
+#connections-box a{
+    text-decoration: underline;
+    color:rgb(23, 162, 184);
+    font-weight: bold;
+}
+
+#settings{
+    margin-top: 10px;
+    margin-left:30px;
+}
+
+#settings-icon{
+    width:10px;
+}
